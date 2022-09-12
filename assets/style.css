@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+/* ................... Glooble Tags .................... */
+h1 {
+    color: #279997;
+    font-size: 24px;
+    word-spacing: 3px;
+}
+
+h2 {
+    color: #c3d855;
+    font-size: 16px;
+    word-spacing: 2px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content-1 p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(150, 150, 150);
+    margin-top: 12px;
+}
+
+.price-text p {
+    font-size: 15px;
+    opacity: .5;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+.box-2 p {
+    opacity: .5;
+    font-weight: 400;
+    line-height: 20px;
+    word-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.allPara {
+    margin-top: 18px;
+}
+
+/* ................ section , container ...................... */
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 650px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* .................  content-1 ...................... */
+.content-1 {
+    background-color: #ffffff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* .................  content-2 ...................... */
+.content-2 {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.price-text {
+    display: flex;
+    align-items: center;
+}
+
+.box-1 {
+    border-bottom-left-radius: 8px;
+    background-color: #2bb3b1;
+    color: #ffffff;
+    width: 50%;
+    display: grid;
+    gap: 10px;
+    padding: 40px;
+}
+
+.box-2 {
+    border-bottom-right-radius: 8px;
+    background-color: #4abebd;
+    color: #ffffff;
+    width: 50%;
+    padding: 40px;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color: #fff;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    margin-top: 26px;
+}
+
+/* ......................... media query ................... */
+
+@media screen and (max-width: 375px) {
+   
+    .section {
+        height: unset;
+        padding: 20px;
+    }
+
+    .content-1 {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    }
+
+    .content-2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .box-1 {
+        border-bottom-left-radius: 0;
+        width: 100%;
+    }
+
+    .box-2 {
+        border-bottom-right-radius: 0;
+        width: 100%;
+
+    }
+    
+}
+
+/* .................................................. */
